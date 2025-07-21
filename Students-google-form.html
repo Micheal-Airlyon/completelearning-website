@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Forms</title>
+  <style>
+   .fieldset-one{
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+   }
+   .fieldset-two{
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+   }
+   .fieldset-three{
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+   }
+   .fieldset-four{
+    background-color:antiquewhite;
+     margin-bottom: 10px;
+   }
+   .fieldset-five{
+    background-color:antiquewhite;
+   }
+   .flex-container{
+    display: flex;
+    justify-content: space-between;
+   }
+   .input-one{
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    background-color: antiquewhite;
+   }
+   .input-two{
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    background-color: antiquewhite;
+   }
+   .submit{
+    background-color: aqua;
+    cursor: pointer;
+   }
+    .footer{
+      background-color: black;
+      color: white;
+       
+    }
+  </style>
+</head>
+<body>
+ <h1>Student details form</h1>
+ <p>Just for me (the teacher).Not for the student. For all the things they tell me that i don't want to forget.</p>
+  <form>
+ <fieldset class="fieldset-one">
+  &#128065; obinnamicheal25@icloud.com
+ </fieldset>
+ <fieldset class="fieldset-two">
+  <div class="flex-container">
+    <div>
+    Student Name
+  </div>
+  <div>
+    <abbr title="Please Your Full Name">PYFN</abbr>
+  </div>
+  </div>
+  
+ <p>your name</p>
+  <input type="text" class="input-one" id="your-name" name="your-name" required>
+</fieldset>
+
+<fieldset class="fieldset-three">
+  <label>Class period</label><br>
+  <label>1</label>
+  <input type="radio"><br>
+  <label>2</label>
+  <input type="radio"><br>
+  <label>3</label>
+  <input type="radio"><br>
+  <label>4</label>
+  <input type="radio"><br>
+  <label>5</label>
+  <input type="radio"><br>
+  <label>6</label>
+  <input type="radio"><br>
+  <label>7</label>
+  <input type="radio"><br>
+<label>8</label>
+  <input type="radio"><br>
+</fieldset>
+
+<fieldset class="fieldset-four">
+  
+  
+  <div class="flex-container">
+    <div>
+    Details
+    </div>
+    <div>
+      <abbr title="Please Make Your Answer concise">PMYAC</abbr>
+    </div>
+
+  </div>
+   <p>Your answer</p>
+   <input type="text" class="input-two" id="your-ansswer" name="your-answer" required>
+  
+</fieldset>
+
+<fieldset class="fieldset-five">
+<label for="comments">Addition comments about yourself:</label>
+<textarea id="comments" name="comments" rows="5" cols="100"></textarea>
+<br>
+<button type="submit" class="submit">Submit</button>
+<hr>
+</fieldset>
+
+  </form>
+</body>
+
+<footer class="footer">
+
+  <div class="flex-container">
+     <div>
+         <h3>Autors name and detials </h3>
+  <address >
+    Plot:2015 festac link bridge
+    <p>Amuwo odofin LGA</p>
+    <p>Logas state.</p>
+
+  </address>
+     </div>
+
+     <div>
+         
+  <div>
+    <h3>Autors socials,telephone and email</h3>
+   
+    <p>
+       <label for="telephone">Telephone:</label>
+      <a href="tel:+2348022667171">+2348022667171</a>
+    </p>
+    <p>
+       <label for="email">Email:</label>
+      <a href="mailto:Obinnamicheal25@icloud.com">Obinnamicheal25@icloud.com</a>
+    </p>
+     <p>
+       <label for="social-media">Social Media:</label>
+      <a href="https://web.facebook.com/john.michael.71474/">Chukwu Micheal@Facebook</a>
+    </p>
+  </div>
+  
+     </div>
+    </div>
+  </footer>
+  <p>Footnote:<a href="forms.html">see our Hotel Feedback Form</a></p>
+  <a href="#top">back to the top!</a>
+</html>
